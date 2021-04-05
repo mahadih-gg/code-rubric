@@ -12,7 +12,7 @@ const About = () => {
             <hr />
             <div className="row p-5 d-flex justify-content-center align-items-evenly">
                 <div className="col-md-6 col-sm-10 my-auto">
-                    <p className="text-justify">Hi, This is <span className="color-primary">Mahadi Hasan</span>. I'm 20 year old's full stack developer from Bangladesh. I am a student of Cumilla Polytechnical Institute, department of Computer Science. I also student of Programming Hero.</p>
+                    <p className="text-justify">Hi, This is <span className="color-primary">Mahadi Hasan</span>. I'm 20 year old's full stack developer from Bangladesh. I am a student of Cumilla Polytechnical Institute, department of Computer Science. I am also a student of Programming Hero.</p>
                 </div>
                 <div className="col-md-3 col-sm-6 ml-5">
                     <img src={profile} className="about-profile" alt="" />
