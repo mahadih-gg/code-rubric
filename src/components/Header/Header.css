@@ -1,0 +1,15 @@
+.header-main{
+    background: #fff4e3;
+    border-radius: 10px 10px 0px 0px;
+}
+.nav-custom a{
+    color: #364f6b;
+}
+.nav-custom:hover{
+    color: #364f6b;
+    background: rgba(28, 27, 27, 0.050);
+    border-radius: 10px;
+}
+.btn-logout{
+    background: linear-gradient(to right, #ed0400, #ff5219);
+}

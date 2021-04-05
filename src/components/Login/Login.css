@@ -1,0 +1,19 @@
+.log-in{
+    border-radius: 15px;
+    background: #dafcf2;
+    box-shadow: 5px 5px 10px #cccccc;
+    margin-top: 20px;
+}
+.log-in button img{
+    width: 30px;
+}
+.log-in button{
+    color: #fff;
+    margin: 10px;
+}
+.log-in button:hover{
+    color: #fff;
+}
+.google{
+    background: #292929;
+}

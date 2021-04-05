@@ -1,0 +1,60 @@
+.doc-header{
+    background: #fff2e880;
+    margin: 30px auto;
+    border-radius: 50px;
+}
+.instruction{
+    position: relative;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+/* top line */
+.instruction::before {
+    content:'';
+    position: absolute;
+    background-color: #F05A28;
+    width: 40%;
+    height: 3px;
+    top: 0;
+    left:90px;
+    }
+    
+  /* bottom line */
+    .instruction::after {
+    content:'';
+    position: absolute;
+    background-color: #F05A28;
+    width: 40%;
+    height: 3px;
+    bottom: 0;
+    left: 90px;
+    }
+
+.procedure{
+    position: relative;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+/* top line */
+.procedure::before {
+    content:'';
+    position: absolute;
+    background-color: #1C1B1B;
+    width: 20%;
+    height: 3px;
+    top: 0;
+    left:90px;
+    }
+    
+  /* bottom line */
+    .procedure::after {
+    content:'';
+    position: absolute;
+    background-color: #1C1B1B;
+    width: 20%;
+    height: 3px;
+    bottom: 0;
+    left: 90px;
+    }

@@ -1,0 +1,47 @@
+[debug] [2021-04-05T19:49:46.495Z] ----------------------------------------------------------------------
+[debug] [2021-04-05T19:49:46.497Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Mahadi Hasan\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy
+[debug] [2021-04-05T19:49:46.498Z] CLI Version:   9.8.0
+[debug] [2021-04-05T19:49:46.498Z] Platform:      win32
+[debug] [2021-04-05T19:49:46.498Z] Node Version:  v14.15.3
+[debug] [2021-04-05T19:49:46.499Z] Time:          Tue Apr 06 2021 01:49:46 GMT+0600 (Bangladesh Standard Time)
+[debug] [2021-04-05T19:49:46.499Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2021-04-05T19:49:46.507Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-04-05T19:49:46.508Z] > authorizing via signed-in user
+[debug] [2021-04-05T19:49:46.508Z] [iam] checking project code-rubric for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2021-04-05T19:49:46.511Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2021-04-05T19:49:46.511Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2021-04-05T19:49:46.835Z] <<< HTTP RESPONSE 200 {"pragma":"no-cache","cache-control":"no-cache, no-store, max-age=0, must-revalidate","expires":"Mon, 01 Jan 1990 00:00:00 GMT","date":"Mon, 05 Apr 2021 19:49:47 GMT","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-04-05T19:49:46.840Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/code-rubric:testIamPermissions  
+ {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2021-04-05T19:49:48.346Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Mon, 05 Apr 2021 19:49:49 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","server-timing":"gfet4t7; dur=1151","alt-svc":"h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-04-05T19:49:48.348Z] > refreshing access token with scopes: []
+[debug] [2021-04-05T19:49:48.348Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2021-04-05T19:49:48.630Z] <<< HTTP RESPONSE 200 {"cache-control":"no-cache, no-store, max-age=0, must-revalidate","date":"Mon, 05 Apr 2021 19:49:49 GMT","expires":"Mon, 01 Jan 1990 00:00:00 GMT","pragma":"no-cache","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-04-05T19:49:48.636Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/code-rubric [none]
+[debug] [2021-04-05T19:49:49.093Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/code-rubric 200
+[debug] [2021-04-05T19:49:49.094Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/code-rubric {"projectId":"code-rubric","projectNumber":"621792174101","displayName":"code-rubric","name":"projects/code-rubric","resources":{"hostingSite":"code-rubric"},"state":"ACTIVE"}
+[info] 
+[info] === Deploying to 'code-rubric'...
+[info] 
+[info] i  deploying hosting 
+[debug] [2021-04-05T19:49:49.099Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2021-04-05T19:49:49.099Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2021-04-05T19:49:49.369Z] <<< HTTP RESPONSE 200 {"pragma":"no-cache","cache-control":"no-cache, no-store, max-age=0, must-revalidate","date":"Mon, 05 Apr 2021 19:49:50 GMT","expires":"Mon, 01 Jan 1990 00:00:00 GMT","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-04-05T19:49:49.373Z] >>> HTTP REQUEST POST https://firebasehosting.googleapis.com/v1beta1/sites/code-rubric/versions  
+ {"config":{},"labels":{"deployment-tool":"cli-firebase"}}
+[debug] [2021-04-05T19:49:52.168Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Mon, 05 Apr 2021 19:49:53 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[info] i  hosting[code-rubric]: beginning deploy... 
+[info] i  hosting[code-rubric]: found 2 files in build 
+[debug] [2021-04-05T19:49:52.177Z] [hosting] hash cache [YnVpbGQ] not populated
+[debug] [2021-04-05T19:49:52.185Z] > refreshing access token with scopes: []
+[debug] [2021-04-05T19:49:52.186Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2021-04-05T19:49:52.302Z] [hosting] hash cache [YnVpbGQ] stored for 2 files
+[debug] [2021-04-05T19:49:52.302Z] [hosting][hash queue][FINAL] {"max":5,"min":4,"avg":4.5,"active":0,"complete":2,"success":2,"errored":0,"retried":0,"total":2,"elapsed":124}
+[debug] [2021-04-05T19:49:52.570Z] <<< HTTP RESPONSE 200 {"date":"Mon, 05 Apr 2021 19:49:53 GMT","cache-control":"no-cache, no-store, max-age=0, must-revalidate","expires":"Mon, 01 Jan 1990 00:00:00 GMT","pragma":"no-cache","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-04-05T19:49:52.575Z] >>> [apiv2][query] POST https://firebasehosting.googleapis.com/v1beta1/sites/code-rubric/versions/1994db5c64d460d6:populateFiles [none]
+[debug] [2021-04-05T19:49:52.575Z] >>> [apiv2][body] POST https://firebasehosting.googleapis.com/v1beta1/sites/code-rubric/versions/1994db5c64d460d6:populateFiles {"files":{"/404.html":"daa499dd96d8229e73235345702ba32f0793f0c8e5c0d30e40e37a5872be57aa","/index.html":"5f0251a1a6be301dcd547b79452aafb931bfb5b0bef3228df3a160739b2b25ba"}}

@@ -1,0 +1,56 @@
+.home-body{
+    margin: 20px;
+    background: #fffdd6;
+    border-radius: 10px;
+}
+.package-selector{
+    margin: 0;
+}
+.package-selector button{
+    border: none;
+    font-weight: 600;
+    background: #fff4e3;
+    border-bottom: 1px solid #c2c2c2;
+}
+.package-npm{
+    border-radius: 10px 0px 0px 0px;
+    transition: all ease .3s;
+}
+.package-yarn{
+    border-radius: 0px 10px 0px 0px;
+    transition: all ease .3s;
+}
+
+
+.custom-control-label {
+    background-color: #eee;
+    width: 100%;
+    text-align: center;
+    border-radius: .2rem;
+    padding: .5rem .5rem .5rem;
+    font-size: 1rem;
+    transition: background-color .1s linear, color .1s linear;
+}
+.custom-control-label:hover{
+    background-color: #ccc;
+}
+.custom-control-label::before, 
+.custom-control-label::after{
+    top: auto;
+    left: 5;
+    right: 0;
+    bottom: 1rem;
+
+}
+.custom-control-input:checked~.custom-control-label {
+    background: #F05A28;
+    color: #fff;
+}
+.command-show input{
+    font-family: 'Share Tech Mono', monospace;
+}
+.package-yarn.active,
+.package-npm.active{
+    background: #F05A28;
+    color: #fff;
+}

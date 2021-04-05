@@ -1,0 +1,16 @@
+.about-heading{
+    
+}
+.about-profile{
+    width: 150px;
+    border-radius: 50%;
+}
+.social-logo img{
+    width: auto;
+    height: 40px;
+    transition: all ease .3s;
+}
+.social-logo img:hover{
+    transform: scale(1.2);
+    transition: all ease .3s;
+}
